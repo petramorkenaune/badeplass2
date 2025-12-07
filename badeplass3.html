@@ -8,25 +8,44 @@
 </head>
 
 <header>
-    <nav>
-        <a href="index.html">Hjem</a>
-        <a href="badeplass1.html">Badetrappen på promenaden</a>
-        <a href="badeplass2.html">Havet Arena</a>
-        <a href="badeplass3.html">Theisendammen</a>
-        <a href="badeplass4.html">Korsvika</a>
-        <a href="badeplasss5.html">Tømmerholtdammen</a>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="index.html">Hjem</a></li>
+            <li class="dropdown">
+                <a href="#">Badeplasser ∨</a>
+                <ul class="dropdown-content">
+                    <li><a href="badeplass1.html">Badetrappen på promenaden</a></li>
+                    <li><a href="badeplass2.html">Havet Arena</a></li>
+                    <li><a href="badeplass3.html">Theisendammen</a></li>
+                    <li><a href="badeplass4.html">Korsvika</a></li>
+                    <li><a href="badeplasss5.html">Tømmerholtdammen</a></li>
+                </ul>
+            </li>
+        </ul>
     </nav>
 </header>
 
+
 <body>
-    <h1>Badetrappen på Promenaden</h1>
+    <h1 style="text-align:center;">Theisendammen</h1>
     <img src="theisendammen.jpg" alt="Bilde av badeplassen ved Theisendammen" width="600"> 
-    <p>Kollektiv: Fra Theisendammen er det kun 11 minutter å gå til Sverresborg bussholdeplass. Herfra går det busser videre opp byåsen, ned til lerkendal og til byen.
-    Ved Theisendammen badeplass er det flere bord i tillegg til mange trær som kan gi skygge på varme sommerdager. Det er også stupetårn satt opp gjennom sommerhalvåret.</p>
-
-    <iframe src="https://www.yr.no/nb/innhold/1-211187/card.html" width="350" height="370">
-
-    </iframe>   
+    <div class="innhold-rad">
+        <div class="tekst">
+            <p>Kollektiv: Fra Theisendammen er det kun 11 minutter å gå til Sverresborg bussholdeplass. Herfra går det busser videre opp byåsen, ned til lerkendal og til byen.</p>
+            <p>Ved Theisendammen badeplass er det flere bord i tillegg til mange trær som kan gi skygge på varme sommerdager. Det er også stupetårn satt opp gjennom sommerhalvåret.</p>
+        </div>
+        <div class="yr-widget">  
+            <iframe src="https://www.yr.no/nb/innhold/1-211187/card.html" width="350" height="370"></iframe>  
+        </div> 
+    </div> 
 </body>
 
+<footer>
+    <div class="footer-tekst">
+        <p>Nettsiden er laget av Petra Morken Aune</p>
+        <p>Sist oppdatert: 7. desember 2025</p>
+    </div>
+</footer>
+
 </html>
+
