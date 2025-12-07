@@ -8,8 +8,8 @@ header {
     background-color: #e6f3ff; 
     padding: 20px;
     text-align: center;
-    font-size: 22px;
     font-weight: bold;
+    font-size: 16px;
     border-bottom: 1px solid #b0d4ff;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 .menu a:hover {
-    background: #e6f3ff ;
+    background: #c9e1f7 ;
 }
 
 .dropdown-content {
@@ -105,3 +105,5 @@ p {
     background: #e6f3ff;
     padding: 50px;
 }
+
+
