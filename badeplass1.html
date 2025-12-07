@@ -8,25 +8,43 @@
 </head>
 
 <header>
-    <nav>
-        <a href="index.html">Hjem</a>
-        <a href="badeplass1.html">Badetrappen på promenaden</a>
-        <a href="badeplass2.html">Havet Arena</a>
-        <a href="badeplass3.html">Theisendammen</a>
-        <a href="badeplass4.html">Korsvika</a>
-        <a href="badeplasss5.html">Tømmerholtdammen</a>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="index.html">Hjem</a></li>
+            <li class="dropdown">
+                <a href="#">Badeplasser ∨</a>
+                <ul class="dropdown-content">
+                    <li><a href="badeplass1.html">Badetrappen på promenaden</a></li>
+                    <li><a href="badeplass2.html">Havet Arena</a></li>
+                    <li><a href="badeplass3.html">Theisendammen</a></li>
+                    <li><a href="badeplass4.html">Korsvika</a></li>
+                    <li><a href="badeplasss5.html">Tømmerholtdammen</a></li>
+                </ul>
+            </li>
+        </ul>
     </nav>
 </header>
 
 <body>
-    <h1>Badetrappen på Promenaden</h1>
+    <h1 style="text-align:center;">Badetrappen på Promenaden</h1>
     <img src="badetrapp-promenaden.webp" alt="Badetrappen ved Promenaden" width="600"> 
-    <p>Kollektiv: Badetrappen ligger i gåavstand fra flere bussholdeplasser. Det er kun 10 minutters gange til Skansen buss-og trikkeholdeplass og 11 minutter til hurtibåtterminalen på motsatt side av promenaden. </p>
-    <p>Det er både benker og en stor trapp hvor man kan sitte ved badeplassen. Det er trapp ned for enkel utgang med håndtak på siden. </p>
-
-    <iframe src="https://www.yr.no/nb/innhold/0-10102/card.html" width="350" height="370">
-
-    </iframe>   
+    <div class="innhold-rad">
+        <div class="tekst">
+            <p>Kollektiv: Badetrappen ligger i gåavstand fra flere bussholdeplasser. Det er kun 10 minutters gange til Skansen buss-og trikkeholdeplass og 11 minutter til hurtibåtterminalen på motsatt side av promenaden.</p>
+            <p>Det er både benker og en stor trapp hvor man kan sitte ved badeplassen. Det er trapp ned for enkel utgang med håndtak på siden. </p>
+        </div>
+        <div class="yr-widget">  
+            <iframe src="https://www.yr.no/nb/innhold/0-10102/card.html" width="350" height="370"></iframe>  
+        </div> 
+    </div> 
 </body>
 
+<footer>
+    <div class="footer-tekst">
+        <p>Nettsiden er laget av Petra Morken Aune</p>
+        <p>Sist oppdatert: 7. desember 2025</p>
+    </div>
+</footer>
+
 </html>
+
